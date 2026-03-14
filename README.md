@@ -10,10 +10,10 @@ Terraform provisions cloud infrastructure, while Ansible automatically configure
 
 ## Architecture
 
-Developer → Terraform → AWS EC2
-EC2 → Ansible Configuration
-Ansible → Install Docker
-Docker → Run Nginx Container
+1. Developer → Terraform → AWS EC2
+2. EC2 → Ansible Configuration
+3. Ansible → Install Docker
+4. Docker → Run Nginx Container
 
 Application exposed on port **5000**
 
