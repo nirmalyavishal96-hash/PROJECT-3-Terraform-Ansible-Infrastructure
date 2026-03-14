@@ -1,0 +1,25 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# SSH keys
+*.pem
+*.key
+devops-key
+devops-key.pub
+
+# Ansible temporary files
+*.retry
+
+# OS files
+.DS_Store
+Thumbs.db
